@@ -38,7 +38,7 @@ install:
 script:
   - phpunit tests/AppBundle/Util
 #  - vendor/bin/phpunit --coverage-clover=coverage.xml
-  - bash <(curl -s https://codecov.io/bash) -t 47165ff1-d005-4427-8f2c-c64bd3fa5200
+  - bash <(curl -s https://codecov.io/bash) -t 0f5ff199-4663-464e-81c7-38a02f8cc4d0
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
